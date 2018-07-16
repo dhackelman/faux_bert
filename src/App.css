@@ -1,0 +1,308 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+@-webkit-keyframes colorchange {
+      0% {
+        
+        color: #1995dc;
+      }
+      
+      50% {
+        color: white;
+      }
+}
+@-webkit-keyframes widthChange {
+      0% {
+        width: 125px;
+      }
+      10% {
+        width: 150px;
+      }
+      20% {
+        width: 175px;
+      }
+      30% {
+        width: 200px;
+      }
+      40% {
+        width: 225px;
+      }
+      50% {
+        width: 250px;
+      }
+      60% {
+        width: 275px;
+      }
+      70% {
+        
+        width: 300px;
+      }
+      80% {
+        width: 325px;
+      }
+      90% {
+        width: 350px;
+      }
+	  95% {
+		 width: 450px;
+	  }
+      100% {
+        width: 450px;
+      }
+}
+
+body {
+	/* padding-top: 70px; */
+	font-family: 'ClearviewATT', ClearviewATT LT, sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none; 
+}
+
+.security_msg {
+	width: 100%;
+	background-color:#dddddd;
+	font-size: 9px;
+	padding: 10px 0 2px 10px;
+	position: static;
+	text-align: left;
+}
+
+@media screen and (min-height: 560px){
+	.security_msg {
+		position: fixed;
+		bottom: 5px;
+	}
+}
+
+.glyphicon {
+	color: white; 
+}
+.glyphicon:hover {
+    cursor: pointer;
+}
+.header {
+	background-color: #2CA3E7;
+	border-color: #1995dc;
+	display: flex; 
+	justify-content: space-between; 
+    margin-bottom: 20px; 
+	min-height: 35px;
+	padding: 15px 5px; 
+	width: 100%; 
+}
+.nav_title {
+	margin: 0 10px; 
+}
+.nav_title a {
+	color: white;
+    font-size: 18px;
+}
+.nav_icons{
+	display: flex;
+	justify-content: space-around;
+	width: 25%;
+}
+.content_container {
+	/* margin: 10px auto; */
+    /* position: relative; */
+	width: 99%; 
+}
+.bar_container {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+	display: flex; 
+	justify-content: center;
+    padding-top: 40vh;
+    z-index: 99;
+}
+.bar_potential_progress{
+	background-color: white; 
+	border-radius: 50px; 
+    height: 25px !important;
+	position: relative; 
+	width: 450px; 
+}
+.bar_achieved_progress {
+	background-color: #1995dc;
+	border-radius: 50px; 
+	color: white; 
+    height: 25px !important;
+	position: absolute; 
+	text-align: center;
+	width: 125px;
+	-webkit-animation: widthChange 5s forwards; 
+}
+.bar_ellipsis {
+	-webkit-animation: colorchange .5s 5s alternate;
+}
+.dashboard_container {
+	display: flex;
+    /* height: 72vh; */
+	justify-content: space-between;
+    /* overflow: hidden; */
+	padding: 20px 0; 
+	width: 100%;
+}
+.worklists_container {
+    height: 80vh;
+    margin: 0 10px;
+    overflow: hidden;
+	width: 33%; 
+}
+.recentEsc_container {
+	width: 66%;
+}
+.content_header {
+	border-radius: 5px;
+	background-color: #F1F1F1;
+	display: flex;
+	font-weight: 500;
+	justify-content: space-between;
+	padding: 5px 10px; 
+	width: 100% ;
+}
+.glyphicon-refresh {
+	color: #1995dc;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+.content_container_dash {
+	border: 1px solid #E1E1E1;
+	border-radius: 5px; 
+	height: 78vh;
+	margin: 10px auto; 
+    /* overflo; */
+	width: 99%; 
+}
+.table_container{
+    height: 71vh;
+    overflow-y:scroll ;
+}
+
+.recentEsc_container table {
+    border-collapse: collapse;
+    font-size: 12px; 
+    margin: 15px 0; 
+    width: 100%;
+}
+
+.recentEsc_container td, th {
+    padding: 8px; 
+}
+.recentEsc_container thead tr td {
+    font-weight: 700;
+}
+.recentEsc_container tbody tr td {
+    font-size: 12px; 
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+}
+
+.recentEsc_container tbody tr { /*className = escalationTableNewRow */
+    background-color: #FDF5CE !important;
+}
+.recentEsc_container tbody tr :nth-of-type(1n + 9) {
+    display: none; 
+}
+.recentEsc_container thead tr :nth-of-type(1n + 9) {
+    display: none;
+}
+.worklists_container thead {
+    display: none;
+}
+.worklists_container table {
+    border-collapse: collapse;
+    font-size: 16px;
+    margin: 15px 0; 
+    width: 100%;
+}
+.worklists_container tr :not(:first-child) {
+    display: none; 
+}
+.worklists_container tr {
+    display: flex; 
+    justify-content: center;
+}
+.worklists_container tr td {
+    border: 1px solid #dddddd; 
+    margin: -.5px auto; 
+    padding: 10px; 
+    text-align: center; 
+    width: 90%; 
+}
+.worklists_container tr td:hover {
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.navigational_tabs_container { 
+    border-bottom:  1px solid #dddddd;
+    display: flex; 
+    width: 100vw;
+}
+.navigational_tabs_tab {
+    border-radius: 5px 5px; 
+    border-bottom: none; 
+    color: #1995dc;
+    display: inline-block;
+    margin: -2px 2px; 
+    margin-bottom: 1px solid white; 
+    padding: 12px; 
+}
+.navigational_tabs_tab:hover {
+    cursor: pointer;
+}
+.tab_active {
+    border: 1px solid #dddddd;
+    border-bottom: 5px solid white;
+    color: black; 
+    /* margin-bottom: -5px; */
+    margin: -2px 2px; 
+    z-index: 55; 
+}
+.tab_close {
+    color: rgba(0,0,0, 0.2);
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 10px; 
+}
+.tab_close:hover {
+    color: rgba(0,0,0,0.6);
+    cursor: pointer; 
+}
+.permanent_on {
+    display: inline !important;
+}
+
+.escLists_container {
+    display: none;
+}
+.active_panel {
+    display: flex !important;
+    /* height: 72vh; */
+	justify-content: space-between;
+    /* overflow: hidden; */
+	padding: 20px 0; 
+	width: 100%;
+}
+.teamPathLists_container {
+    height: 80vh;
+    margin: 15px 10px;
+    overflow: hidden;
+	width: 33%; 
+}
+.teamContactDetails_container {
+    height: 80vh;
+    margin: 15px 10px;
+    overflow: hidden;
+	width: 66%; 
+}

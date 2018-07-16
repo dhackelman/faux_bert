@@ -1,0 +1,172 @@
+"11" : {
+  "number" : 11,
+  "players" : [ {
+    "face" : "http://cdn-s3.si.com/s3fs-public/2015/05/15/larry-brown-unc.jpg",
+    "name" : "Larry Brown",
+    "years" : "1960-1963"
+  }, {
+    "face" : "http://i.imgur.com/FAxQT3M.jpg",
+    "name" : "Scott Cherry",
+    "years" : "1989-1993"
+  } ]
+},
+"13" : {
+  "number" : 13,
+  "players" : [ {
+    "face" : "http://goheels.com/images/2012/6/20/VXSZYTSFDBCOQPV.20120620044510.jpg?width=1440&height=810&mode=crop",
+    "name" : "Hook Dillon",
+    "years" : "1944-1948"
+  } ]
+},
+"15" : {
+  "number" : 15,
+  "players" : [ {
+    "face" : "http://s3.amazonaws.com/movoli/posts/144de484-23d7-4644-9d78-e1b03334956e_original.jpg",
+    "name" : "Vince Carter",
+    "years" : "1995-1998"
+  } ]
+},
+"20" : {
+  "number" : 20,
+  "players" : [ {
+    "face" : "http://img.comc.com/i/Basketball/1992/Wild-Card-Collegiate---Base/31/Steve-Bucknall.jpg?id=8b022878-6590-4132-9527-b097645a86d7&size=zoom&side=back",
+    "name" : "Steve Bucknall",
+    "years" : "1985-1989"
+  } ]
+},
+"21" : {
+  "number" : 21,
+  "players" : [ {
+    "face" : "http://photos.mycapture.com/NWOB/1566456/45345033E.jpg",
+    "name" : "Jimmy Black",
+    "years" : "1978-1982"
+  } ]
+},
+"22" : {
+  "number" : 22,
+  "players" : [ {
+    "face" : "http://www.thedraftreview.com/history/drafted1979/images/dudley-bradley.jpg",
+    "name" : "Dudley Bradley",
+    "years" : "1975-1979"
+  }, {
+    "face" : "http://image.cdnllnwnl.xosnetwork.com/pics32/400/GM/GMNAALBRDLTIGWX.20121015195647.jpg",
+    "name" : "Ronald Curry",
+    "years" : "1998-2001"
+  }, {
+    "face" : "http://grfx.cstv.com/schools/vand/graphics/auto/fogler-2-unc.jpg",
+    "name" : "Jim Delany",
+    "years" : "1967-1970"
+  } ]
+},
+"23" : {
+  "number" : 23,
+  "players" : [ {
+    "face" : "http://www.interbasket.net/news/wp-content/uploads/michael-jordan-teenager-north-carolina.jpg",
+    "name" : "Michael Jordan",
+    "years" : "1981-1984"
+  } ]
+},
+"24" : {
+  "number" : 24,
+  "players" : [ {
+    "face" : "http://www.tarheeltimes.com/photos/unc_basketball_photos/photos/Walter%20Davis.jpg",
+    "name" : "Walter Davis",
+    "years" : "1973-1977"
+  } ]
+},
+"25" : {
+  "number" : 25,
+  "players" : [ {
+    "face" : "http://goheels.com/images/2012/6/20/UFHOKEXYTLRGKBW.20120620213136.jpg?width=1440&height=810&mode=crop",
+    "name" : "Jason Capel",
+    "years" : "1998-2002"
+  } ]
+},
+"32" : {
+  "number" : 32,
+  "players" : [ {
+    "face" : "https://blogs.lib.unc.edu/morton/wp-content/uploads/2016/04/P081_NTBR2_001780_28_crop.jpg",
+    "name" : "John Brownlee",
+    "years" : "1981-1983"
+  }, {
+    "face" : "http://2.bp.blogspot.com/_Xu1Sdat4pgU/TDO6u8R19UI/AAAAAAAACNs/cv1vnMCm9q8/s1600/Bob+Cunningham.jpg",
+    "name" : "Billy Cunningham",
+    "years" : "1962-1965"
+  }, {
+    "face" : "https://battlefortobaccoroad.files.wordpress.com/2010/04/ed-davis-2.jpg",
+    "name" : "Ed Davis",
+    "years" : "2008-2010"
+  } ]
+},
+"35" : {
+  "number" : 35,
+  "players" : [ {
+    "face" : "http://www.hallwynne.com/wp-content/uploads/574173.jpg",
+    "name" : "Pete Brennan",
+    "years" : "1955-1958"
+  }, {
+    "face" : "https://oldnorthbanter.com/wp-content/blogs.dir/256/files/2013/01/6930596.jpg",
+    "name" : "Reggie Bullock",
+    "years" : "2010-2013"
+  } ]
+},
+"40" : {
+  "number" : 40,
+  "players" : [ {
+    "face" : "https://mk0slamonlinensgt39k.kinstacdn.com/wp-content/uploads/2011/11/unc_5.jpg",
+    "name" : "Harrison Barnes",
+    "years" : "2010-2012"
+  }, {
+    "face" : "http://www.tarheeltimes.com/photos/unc_basketball_photos/photos/Hubert_Davis_UNC_Basketball.jpg",
+    "name" : "Hubert Davis",
+    "years" : "1992-1994"
+  } ]
+},
+"41" : {
+  "number" : 41,
+  "players" : {
+    "face" : "http://www.cavshistory.com/images/players/Geoff_Crompton.jpg",
+    "name" : "Geoff Crompton",
+    "years" : "1973-1978"
+  }
+},
+"42" : {
+  "number" : 42,
+  "players" : [ {
+    "face" : "http://image.cdnllnwnl.xosnetwork.com/fls/3350/old_site/images/galleries/m-bkball-ACC50/a-Daugherty_B_ACC50.jpg",
+    "name" : "Brad Daugherty",
+    "years" : "1982-1986"
+  } ]
+},
+"44" : {
+  "number" : 44,
+  "players" : [ {
+    "face" : "http://www.tarheeltimes.com/photos/unc_basketball_photos/photos/Bill_Bunting.jpg",
+    "name" : "Bill Bunting",
+    "years" : "1966-1969"
+  }, {
+    "face" : "https://cdn-s3.si.com/s3fs-public/si/multimedia/photo_gallery/0902/unc.historical.photos/images/017029097.jpg",
+    "name" : "Matt Doherty",
+    "years" : "1980-1984"
+  } ]
+},
+"59" : {
+  "number" : 59,
+  "players" : [ {
+    "face" : "https://upload.wikimedia.org/wikipedia/en/6/62/Andrew_A._Bershak.png",
+    "name" : "Andy Bershak",
+    "years" : "1936-1937"
+  } ]
+},
+"99" : {
+  "number" : 99,
+  "players" : [ {
+    "face" : "http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Cartwright_Carmichael.png/220px-Cartwright_Carmichael.png",
+    "name" : "Cartwright Carmichael",
+    "years" : "1922-1924"
+  }, {
+    "face" : "http://upload.wikimedia.org/wikipedia/en/thumb/0/06/Jack_Cobb_%281924%29.jpg/180px-Jack_Cobb_%281924%29.jpg",
+    "name" : "Jack Cobb",
+    "years" : "1923-1926"
+  } ]
+}
